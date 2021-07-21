@@ -1,0 +1,40 @@
+name: SurvivalPlugin
+version: ${project.version}
+main: masa3mc.survivalplugin.SurvivalPlugin
+api-version: 1.17
+authors: [White_Siro]
+description: This plugin is for masa3mc
+website: github.com/WhiteSiro
+softdepend: [Vault]
+depend: [Vault]
+commands:
+  spl:
+    description: spl info commands.
+    usage: /spl
+  atm:
+    description: your atm
+    usage: /atm
+  fly:
+    description: fly on off
+    usage: /fly
+  cmd:
+    description: open cmd list
+    usage: /cmd
+  ender:
+    description: open your ender-chest
+    usage: /ender
+  rank:
+    description: check rank
+    usage: /rank
+  rankpoint:
+    description: rank point
+    usage: /rankpoint
+  nick:
+    description: nickname
+    usage: /nick
+  admin:
+    usage: /admin
+    description: adminMode
+  fs:
+    usage: /fs [0~10]
+    description: fly speed
